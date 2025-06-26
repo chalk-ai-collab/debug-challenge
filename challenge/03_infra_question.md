@@ -1,12 +1,25 @@
-# Background
+# Challenge 03: Infrastructure Questions
 
-A customer writes in and says: 
+## Background
+
+A customer reports intermittent GRPC errors when querying Chalk.
+
+## Customer Issue
+
+The customer writes:
 
 > Sometimes when I query Chalk, I get a 503 UNAVAILABLE error from my GRPC client. Why?
 
-After an investigation, you find this screenshot:
+## Investigation
+
+After investigation, you find the following screenshot showing the error pattern:
 
 ![screenshot.png](../screenshot.png)
 
-Please write a response to the customer explaining why this error occurs, and what they can do to avoid it in the future.
-Please also include any relevant links to Chalk's documentation.
+## Questions
+
+1. Please write a response to the customer explaining why this error occurs.
+
+2. What recommendations would you provide to help them avoid this issue in the future?
+
+3. Include any relevant links to Chalk's documentation that would help the customer understand and resolve this issue.

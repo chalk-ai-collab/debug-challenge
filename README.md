@@ -1,19 +1,35 @@
-# debug-challenge
+# Technical Support Engineer Debug Challenge
 
-Please review the code & prompts in the 'challenge' directory:
+## Overview
 
-- 01: `challenge/01_using_chalk.py`
-- 02: `challenge/02_pip_issues.py`
-- 03: `challenge/03_infra_questions.md`
-- 05: `challenge/05_dataframes.py`
-- 10: `challenge/10_sql.sql`
+This repository contains a series of technical support challenges based on real customer issues. Each challenge tests debugging skills and technical problem-solving abilities.
 
-Please write answers for these questions in a markdown file. Please number each answer according to the question number.
-These are questions drawn from real customer support tickets -- we've tried to choose questions that don't require
-too much domain knowledge, but do require some debugging skills.
+## Challenges
 
-If you are unsure of the correct answer, please write down your reasoning and any assumptions you made, as well
-as the response you would give to the customer. It's allowed to ask for clarification if you don't understand 
-the question.
+Please review the following challenges in the `challenge` directory:
 
-Chalk's documentation is available at https://docs.chalk.ai/docs/what-is-chalk and https://docs.chalk.ai/api-docs.
+- **Challenge 01**: Using Chalk - `challenge/01_using_chalk.py`
+- **Challenge 02**: Pip Installation Issues - `challenge/02_pip_issues.md`
+- **Challenge 03**: Infrastructure Questions - `challenge/03_infra_question.md`
+- **Challenge 05**: DataFrame Operations - `challenge/05_dataframes.py`
+- **Challenge 10**: SQL Query Debugging - `challenge/10_sql.sql`
+
+## Instructions
+
+1. Review each challenge file carefully
+2. Write your answers in a single markdown file
+3. Number each answer according to the challenge number
+4. Include your reasoning and any assumptions made
+5. If unclear about a question, explain what clarification you would request from the customer
+
+## Guidelines
+
+- These challenges are drawn from real customer support tickets
+- Domain knowledge is helpful but not required - focus on debugging skills
+- Show your problem-solving approach, not just the final answer
+- Include any relevant code snippets or commands in your response
+
+## Resources
+
+- Chalk Documentation: https://docs.chalk.ai/docs/what-is-chalk
+- Chalk API Reference: https://docs.chalk.ai/api-docs
