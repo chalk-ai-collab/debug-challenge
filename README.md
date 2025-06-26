@@ -4,8 +4,9 @@ Please review the code & prompts in the 'challenge' directory:
 
 - 01: `challenge/01_using_chalk.py`
 - 02: `challenge/02_pip_issues.py`
-- 03: `challenge/05_dataframes.py`
-- 04: `challenge/10_sql.sql`
+- 03: `challenge/03_infra_questions.md`
+- 05: `challenge/05_dataframes.py`
+- 10: `challenge/10_sql.sql`
 
 Please write answers for these questions in a markdown file. Please number each answer according to the question number.
 These are questions drawn from real customer support tickets -- we've tried to choose questions that don't require
