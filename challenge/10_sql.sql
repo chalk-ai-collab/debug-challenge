@@ -1,22 +1,35 @@
--- A customer writes in and says:
--- I'm trying to define a resolver that returns the most recent order status for each order in our system,
--- but when I run this SQL query:
-
-select order_id, purchase_amount, status, timestamp from order_table order by timestamp desc;
-
--- I get multiple rows for each order, and I only want the most recent status for each order.
--- How do I fix this?
-
-
--- Sample data:
+-- Challenge 10: SQL Query Debugging
+--
+-- Background:
+-- A customer needs help writing a SQL query to get the most recent status for each order
+-- in a table that tracks order status history.
+--
+-- Customer Issue:
+-- The customer writes:
+--
+-- > I'm trying to define a resolver that returns the most recent order status for each order in our system,
+-- > but when I run this SQL query:
+-- >
+-- > select order_id, purchase_amount, status, timestamp from order_table order by timestamp desc;
+-- >
+-- > I get multiple rows for each order, and I only want the most recent status for each order.
+-- > How do I fix this?
+--
+-- Questions:
+-- 1. What's wrong with the customer's current query?
+-- 2. Provide a corrected SQL query that returns only the most recent status for each order.
+-- 3. Explain the SQL concepts involved in solving this problem.
+--
+-- Sample Data:
+-- The following table structure and data are provided for testing:
 
 -- Create the order table
 CREATE TABLE order_table (
-                             order_history_id INT PRIMARY KEY,
-                             order_id INT,
-                             purchase_amount DECIMAL(10, 2),
-                             status VARCHAR(20),
-                             timestamp TIMESTAMP
+    order_history_id INT PRIMARY KEY,
+    order_id INT,
+    purchase_amount DECIMAL(10, 2),
+    status VARCHAR(20),
+    timestamp TIMESTAMP
 );
 
 -- Insert test data with multiple status updates per order

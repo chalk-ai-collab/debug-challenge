@@ -1,11 +1,15 @@
-# Background
+# Challenge 02: Pip Installation Issues
 
-We maintain a python package called "chalkpy". It depends on psycopg2.
+## Background
 
-Often, customers write in with a message like this:
+We maintain a Python package called "chalkpy" that depends on psycopg2.
+
+## Customer Issue
+
+A customer writes:
 
 > I am trying to install chalkpy, but I get an error about psycopg2. How do I fix this?
-
+>
 > I got this output:
 
 ```
@@ -86,6 +90,8 @@ help: `psycopg2` (v2.9.10) was included because `chalkpy[postgresql]`
 (v2.74.3) depends on `psycopg2`
 ```
 
-Please research this problem and write an answer that might help.
+## Questions
 
-How should we deflect this question in the future?
+1. Please research this problem and write an answer that might help the customer resolve the installation issue.
+
+2. How should we deflect this question in the future to reduce support burden?
