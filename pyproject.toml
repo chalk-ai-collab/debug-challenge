@@ -1,0 +1,12 @@
+[project]
+name = "debug-challenge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chalkpy[runtime]>=2.81.50",
+    "pandas>=2.2.3",
+    "polars>=0.20.31",
+    "requests>=2.32.4",
+]
