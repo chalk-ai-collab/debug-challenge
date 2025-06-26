@@ -14,3 +14,5 @@ too much domain knowledge, but do require some debugging skills.
 If you are unsure of the correct answer, please write down your reasoning and any assumptions you made, as well
 as the response you would give to the customer. It's allowed to ask for clarification if you don't understand 
 the question.
+
+Chalk's documentation is available at https://docs.chalk.ai/docs/what-is-chalk and https://docs.chalk.ai/api-docs.
