@@ -11,8 +11,9 @@ Please review the following challenges in the `challenge` directory:
 - **Challenge 01**: Using Chalk - `challenge/01_using_chalk.py`
 - **Challenge 02**: Pip Installation Issues - `challenge/02_pip_issues.md`
 - **Challenge 03**: Infrastructure Questions - `challenge/03_infra_question.md`
+- **Challenge 04**: Customer Management - `challenge/04_customer_management.md` 
 - **Challenge 05**: DataFrame Operations - `challenge/05_dataframes.py`
-- **Challenge 10**: SQL Query Debugging - `challenge/10_sql.sql`
+- **Challenge 06**: SQL Query Debugging - `challenge/10_sql.sql`
 
 ## Instructions
 
