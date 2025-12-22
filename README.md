@@ -14,6 +14,7 @@ Please review the following challenges in the `challenge` directory:
 - **Challenge 04**: Customer Management - `challenge/04_customer_management.md` 
 - **Challenge 05**: DataFrame Operations - `challenge/05_dataframes.py`
 - **Challenge 06**: SQL Query Debugging - `challenge/10_sql.sql`
+- **Challenge 07**: SQL Query Debugging - `challenge/11_triangle.md`
 
 ## Instructions
 
